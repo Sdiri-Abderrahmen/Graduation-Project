@@ -8,3 +8,5 @@ data , other data… )
  To understand well those datasets.
  To try to find some links between those datasets.
  To Learn how to convert datasets to RDF form
+ Second step :
+ Covert xls files to RDF form using open refine with rdf extension
