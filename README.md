@@ -10,4 +10,4 @@ data , other data… )
  To Learn how to convert datasets to RDF form
 
 *  Second step :
- Covert xls files to RDF form using open refine with rdf extension
+ Convert xls files to RDF form using open refine with rdf extension
