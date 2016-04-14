@@ -14,6 +14,7 @@ data , other data… )
 
 Data sources :
 http://data.gov.be/fr
+
 http://www.europeandataportal.eu/
 
 I converted the data to RDF form using LODrefine and Protégé(for owl)
