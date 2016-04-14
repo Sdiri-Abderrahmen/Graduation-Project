@@ -11,3 +11,7 @@ data , other data… )
 
 *  Second step :
  Convert xls files to RDF form using open refine with rdf extension
+Data sources :
+http://data.gov.be/fr
+http://www.europeandataportal.eu/
+i converted the data to RDF form using LODrefine and Protégé(for owl)
