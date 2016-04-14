@@ -1,0 +1,257 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rg: <> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+
+<http://localhost:3333/0> rdfs:label "Flemish Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "6396282"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "53651"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "482041"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2013"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/1> rdfs:label "Walloon Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "3569693"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "32021"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "339828"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2013"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/2> rdfs:label "Brussels-Capital Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "1159061"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "42205"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "168191"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2013"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/3> rdfs:label "Flemish Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "6350765"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "53296"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "508346"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/4> rdfs:label "Walloon Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "3546329"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "31820"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "347742"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/5> rdfs:label "Brussels-Capital Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "1138854"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "41913"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "181175"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2012"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/6> rdfs:label "Flemish Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "6306638"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "52645"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "512203"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2011"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/7> rdfs:label "Walloon Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "3525540"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "31457"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "358785"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2011"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/8> rdfs:label "Brussels-Capital Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "1119088"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "41377"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "190956"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2011"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/9> rdfs:label "Flemish Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "6251983"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "51761"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "498906"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/10> rdfs:label "Walloon Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "3498384"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "30963"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "346915"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/11> rdfs:label "Brussels-Capital Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "1089538"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "40645"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "178978"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2010"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/12> rdfs:label "Flemish Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "6139520"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "50742"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "499590"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2009"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/13> rdfs:label "Walloon Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "3446327"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "30394"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "344031"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2009"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/14> rdfs:label "Brussels-Capital Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "1039853"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "39809"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "179193"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2009"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/15> rdfs:label "Flemish Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "6185238"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "49247"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "487041"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/16> rdfs:label "Walloon Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "3466223"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "29561"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "335714"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/17> rdfs:label "Brussels-Capital Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "1058511"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "38577"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "182943"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2008"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/18> rdfs:label "Flemish Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "6230430"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "47561"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "489144"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2007"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/19> rdfs:label "Walloon Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "3487027"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "28619"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "331378"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2007"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/20> rdfs:label "Brussels-Capital Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "1079035"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "37184"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "181153"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2007"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/21> rdfs:label "Flemish Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "6098020"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "45928"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "486661"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2006"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/22> rdfs:label "Walloon Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "3424928"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "27364"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "334310"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2006"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/23> rdfs:label "Brussels-Capital Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "1025009"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "35482"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "177271"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2006"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/24> rdfs:label "Flemish Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "6060880"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "44619"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "476350"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2005"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/25> rdfs:label "Walloon Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "3404960"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "26602"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "333177"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2005"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/26> rdfs:label "Brussels-Capital Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "1012776"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "34105"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "169205"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2005"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/27> rdfs:label "Flemish Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "6029592"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "37731"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "486963"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/28> rdfs:label "Walloon Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "3388220"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "23847"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "348023"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/29> rdfs:label "Brussels-Capital Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "1003324"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "30097"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "165779"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2004"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/30> rdfs:label "Flemish Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "6005788"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "37140"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "487073"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2003"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/31> rdfs:label "Walloon Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "3374374"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "21834"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "340719"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2003"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/32> rdfs:label "Brussels-Capital Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "995970"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "27787"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "168012"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2003"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/33> rdfs:label "Flemish Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "5984167"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "37942"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "492073"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2002"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/34> rdfs:label "Walloon Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "3363405"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "21700"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "341460"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2002"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/35> rdfs:label "Brussels-Capital Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "985212"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "29800"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "168750"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2002"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/36> rdfs:label "Flemish Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "5962666"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "36141"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "457057"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2001"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/37> rdfs:label "Walloon Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "3352508"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "22496"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "333539"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2001"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/38> rdfs:label "Brussels-Capital Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "971394"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "29197"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "165221"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2001"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/39> rdfs:label "Flemish Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "5946401"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "28644"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "473031"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/40> rdfs:label "Walloon Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "3342986"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "18821"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "355369"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/41> rdfs:label "Brussels-Capital Region" ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasPopulation> "961861"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasExternalimmigration> "22729"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#hasCrimes> "165185"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#ObservedinThisYear> "2000"^^<http://www.w3.org/2001/XMLSchema#int> .
