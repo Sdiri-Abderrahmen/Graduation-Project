@@ -11,6 +11,7 @@ data , other data… )
 
 * Step 2 :
  Convert xls files to RDF form using open refine with rdf extension
+Define rdf vocabulories with Protégé (Ontology Web language )
 
 Data sources :
 http://data.gov.be/fr
