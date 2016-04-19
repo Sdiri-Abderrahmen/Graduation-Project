@@ -1,5 +1,5 @@
 # Graduation-Project
-* First Step :
+* Step 1 :
  To make a Github account in order to exchange files
  To read carefully the two documents (Uduvudu, Discovering Spatial
 and Temporal Links among RDF Data )
@@ -9,7 +9,7 @@ data , other data… )
  To try to find some links between those datasets.
  To Learn how to convert datasets to RDF form
 
-*  Second step :
+* Step 2 :
  Convert xls files to RDF form using open refine with rdf extension
 
 Data sources :
@@ -18,3 +18,6 @@ http://data.gov.be/fr
 http://www.europeandataportal.eu/
 
 I converted the data to RDF form using LODrefine and Protégé(for owl)
+
+* Step3 :
+To write some SPARQL queries
