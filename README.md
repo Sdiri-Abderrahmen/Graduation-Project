@@ -10,7 +10,8 @@ data , other data… )
  To Learn how to convert datasets to RDF form
 
 * Step 2 :
- Convert xls files to RDF form using open refine with rdf extension
+Convert xls files to RDF form using open refine with rdf extension
+
 Define rdf vocabulories with Protégé (Ontology Web language )
 
 Data sources :
