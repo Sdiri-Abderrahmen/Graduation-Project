@@ -1,0 +1,35 @@
+prefix pfe: <http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#> 
+prefix owl: <http://www.w3.org/2002/07/owl#>
+SELECT  ?x WHERE { 
+  {<http://localhost:3333/Flemish+Region> pfe:hasPopulation ?y} 
+  {?y pfe:InthisYear "2001"^^<http://www.w3.org/2001/XMLSchema#int>}
+  {?y owl:hasValue ?x}
+}
+Result:6396282
+
+prefix pfe: <http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#> 
+prefix owl: <http://www.w3.org/2002/07/owl#>
+SELECT  ?x WHERE { 
+  {<http://localhost:3333/Brussels-Capital+Region> pfe:hasNumberOfcrimes ?y} 
+  {?y pfe:InthisYear "2007"^^<http://www.w3.org/2001/XMLSchema#int>}
+  {?y owl:hasValue ?x}
+}
+ Result:181153
+
+prefix pfe: <http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#> 
+prefix owl: <http://www.w3.org/2002/07/owl#>
+SELECT  ?x WHERE { 
+  {<http://localhost:3333/Walloon+Region> pfe:hasExternalimmigration ?y} 
+  {?y pfe:InthisYear "2010"^^<http://www.w3.org/2001/XMLSchema#int>}
+  {?y owl:hasValue ?x}
+}
+ Result :30963
+
+prefix pfe: <http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#> 
+prefix owl: <http://www.w3.org/2002/07/owl#>
+SELECT  ?x WHERE { <http://localhost:3333/Belgium> pfe:hasRegion ?x} 
+ Result :
+
+1 <http://localhost:3333/Flemish+Region>
+2 <http://localhost:3333/Walloon+Region>
+3 <http://localhost:3333/Brussels-Capital+Region>
