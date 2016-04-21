@@ -6,7 +6,7 @@ SELECT  ?x WHERE {
   {?y owl:hasValue ?x}
 }
 Result:6396282
-
+****************************************************************************************************************
 prefix pfe: <http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#> 
 prefix owl: <http://www.w3.org/2002/07/owl#>
 SELECT  ?x WHERE { 
@@ -15,7 +15,7 @@ SELECT  ?x WHERE {
   {?y owl:hasValue ?x}
 }
  Result:181153
-
+********************************************************************************************************************
 prefix pfe: <http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#> 
 prefix owl: <http://www.w3.org/2002/07/owl#>
 SELECT  ?x WHERE { 
@@ -24,7 +24,7 @@ SELECT  ?x WHERE {
   {?y owl:hasValue ?x}
 }
  Result :30963
-
+**********************************************************************************************************************
 prefix pfe: <http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#> 
 prefix owl: <http://www.w3.org/2002/07/owl#>
 SELECT  ?x WHERE { <http://localhost:3333/Belgium> pfe:hasRegion ?x} 
@@ -33,3 +33,21 @@ SELECT  ?x WHERE { <http://localhost:3333/Belgium> pfe:hasRegion ?x}
 1 <http://localhost:3333/Flemish+Region>
 2 <http://localhost:3333/Walloon+Region>
 3 <http://localhost:3333/Brussels-Capital+Region>
+*********************************************************************************************************************
+prefix pfe: <http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#> 
+prefix owl: <http://www.w3.org/2002/07/owl#>
+SELECT  ?x WHERE {{ <http://localhost:3333/Flemish+Region> pfe:hasPopulation ?y}
+ {?y owl:hasValue "6396282"^^<http://www.w3.org/2001/XMLSchema#int>} 
+  {?y pfe:InthisYear ?x } }
+ Result :2013
+**********************************************************************************************************************
+prefix pfe: <http://www.semanticweb.org/user/ontologies/2016/3/untitled-ontology-13#> 
+prefix owl: <http://www.w3.org/2002/07/owl#>
+SELECT  ?x ?y WHERE {{ <http://localhost:3333/Belgium> pfe:hasRegion ?x}
+ {?x pfe:hasPopulation ?z} {?z pfe:InthisYear ?y }
+  {?z owl:hasValue "971394"^^<http://www.w3.org/2001/XMLSchema#int>}
+  }
+Result:  	
+<http://localhost:3333/Brussels-Capital+Region>     2001
+***********************************************************************************************************************
+ 
