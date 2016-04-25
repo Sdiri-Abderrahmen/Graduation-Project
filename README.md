@@ -25,4 +25,4 @@ I converted the data to RDF form using LODrefine and Protégé(for owl)
 To write some SPARQL queries
 
 *Step4 :
-visulaization of linked data & Starting the report
+visulization of linked data & Starting the report
