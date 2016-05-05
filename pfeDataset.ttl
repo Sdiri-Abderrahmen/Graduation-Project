@@ -1,0 +1,653 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix pfe: <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#> .
+
+
+<http://localhost:3333/Belgium> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasName> "Belgium" ;
+	owl:sameAs <http://dbpedia.org/resource/Belgium> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasName> "Flemish Region" ;
+	owl:sameAs <http://dbpedia.org/resource/Flemish_Region> .
+
+_:node1ahttdknbx1 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2013.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "6396282.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx1 .
+
+_:node1ahttdknbx2 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2013.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "53651.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx2 .
+
+_:node1ahttdknbx3 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2013.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "482041.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx3 .
+
+<http://localhost:3333/Belgium> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasRegion> <http://localhost:3333/Flemish+Region> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasName> "Walloon Region" ;
+	owl:sameAs <http://dbpedia.org/resource/Walloon_Region> .
+
+_:node1ahttdknbx4 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2013.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "3569693.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx4 .
+
+_:node1ahttdknbx5 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2013.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "32021.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx5 .
+
+_:node1ahttdknbx6 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2013.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "339828.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx6 .
+
+<http://localhost:3333/Belgium> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasRegion> <http://localhost:3333/Walloon+Region> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasName> "Brussels-Capital Region" ;
+	owl:sameAs <http://dbpedia.org/resource/Brussels_Capital-Region> .
+
+_:node1ahttdknbx7 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2013.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "1159061.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx7 .
+
+_:node1ahttdknbx8 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2013.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "42205.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx8 .
+
+_:node1ahttdknbx9 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2013.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "168191.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx9 .
+
+<http://localhost:3333/Belgium> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasRegion> <http://localhost:3333/Brussels-Capital+Region> .
+
+_:node1ahttdknbx10 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2012.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "6350765.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx10 .
+
+_:node1ahttdknbx11 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2012.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "53296.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx11 .
+
+_:node1ahttdknbx12 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2012.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "508346.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx12 .
+
+_:node1ahttdknbx13 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2012.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "3546329.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx13 .
+
+_:node1ahttdknbx14 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2012.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "31820.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx14 .
+
+_:node1ahttdknbx15 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2012.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "347742.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx15 .
+
+_:node1ahttdknbx16 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2012.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "1138854.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx16 .
+
+_:node1ahttdknbx17 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2012.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "41913.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx17 .
+
+_:node1ahttdknbx18 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2012.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "181175.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx18 .
+
+_:node1ahttdknbx19 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2011.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "6306638.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx19 .
+
+_:node1ahttdknbx20 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2011.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "52645.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx20 .
+
+_:node1ahttdknbx21 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2011.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "512203.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx21 .
+
+_:node1ahttdknbx22 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2011.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "3525540.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx22 .
+
+_:node1ahttdknbx23 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2011.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "31457.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx23 .
+
+_:node1ahttdknbx24 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2011.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "358785.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx24 .
+
+_:node1ahttdknbx25 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2011.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "1119088.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx25 .
+
+_:node1ahttdknbx26 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2011.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "41377.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx26 .
+
+_:node1ahttdknbx27 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2011.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "190956.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx27 .
+
+_:node1ahttdknbx28 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2010.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "6251983.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx28 .
+
+_:node1ahttdknbx29 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2010.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "51761.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx29 .
+
+_:node1ahttdknbx30 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2010.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "498906.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx30 .
+
+_:node1ahttdknbx31 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2010.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "3498384.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx31 .
+
+_:node1ahttdknbx32 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2010.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "30963.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx32 .
+
+_:node1ahttdknbx33 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2010.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "346915.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx33 .
+
+_:node1ahttdknbx34 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2010.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "1089538.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx34 .
+
+_:node1ahttdknbx35 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2010.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "40645.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx35 .
+
+_:node1ahttdknbx36 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2010.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "178978.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx36 .
+
+_:node1ahttdknbx37 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2009.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "6139520.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx37 .
+
+_:node1ahttdknbx38 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2009.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "50742.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx38 .
+
+_:node1ahttdknbx39 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2009.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "499590.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx39 .
+
+_:node1ahttdknbx40 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2009.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "3446327.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx40 .
+
+_:node1ahttdknbx41 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2009.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "30394.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx41 .
+
+_:node1ahttdknbx42 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2009.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "344031.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx42 .
+
+_:node1ahttdknbx43 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2009.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "1039853.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx43 .
+
+_:node1ahttdknbx44 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2009.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "39809.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx44 .
+
+_:node1ahttdknbx45 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2009.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "179193.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx45 .
+
+_:node1ahttdknbx46 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2008.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "6185238.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx46 .
+
+_:node1ahttdknbx47 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2008.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "49247.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx47 .
+
+_:node1ahttdknbx48 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2008.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "487041.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx48 .
+
+_:node1ahttdknbx49 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2008.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "3466223.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx49 .
+
+_:node1ahttdknbx50 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2008.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "29561.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx50 .
+
+_:node1ahttdknbx51 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2008.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "335714.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx51 .
+
+_:node1ahttdknbx52 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2008.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "1058511.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx52 .
+
+_:node1ahttdknbx53 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2008.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "38577.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx53 .
+
+_:node1ahttdknbx54 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2008.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "182943.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx54 .
+
+_:node1ahttdknbx55 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2007.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "6230430.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx55 .
+
+_:node1ahttdknbx56 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2007.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "47561.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx56 .
+
+_:node1ahttdknbx57 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2007.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "489144.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx57 .
+
+_:node1ahttdknbx58 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2007.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "3487027.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx58 .
+
+_:node1ahttdknbx59 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2007.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "28619.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx59 .
+
+_:node1ahttdknbx60 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2007.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "331378.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx60 .
+
+_:node1ahttdknbx61 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2007.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "1079035.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx61 .
+
+_:node1ahttdknbx62 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2007.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "37184.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx62 .
+
+_:node1ahttdknbx63 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2007.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "181153.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx63 .
+
+_:node1ahttdknbx64 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2006.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "6098020.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx64 .
+
+_:node1ahttdknbx65 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2006.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "45928.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx65 .
+
+_:node1ahttdknbx66 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2006.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "486661.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx66 .
+
+_:node1ahttdknbx67 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2006.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "3424928.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx67 .
+
+_:node1ahttdknbx68 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2006.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "27364.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx68 .
+
+_:node1ahttdknbx69 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2006.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "334310.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx69 .
+
+_:node1ahttdknbx70 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2006.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "1025009.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx70 .
+
+_:node1ahttdknbx71 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2006.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "35482.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx71 .
+
+_:node1ahttdknbx72 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2006.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "177271.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx72 .
+
+_:node1ahttdknbx73 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2005.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "6060880.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx73 .
+
+_:node1ahttdknbx74 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2005.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "44619.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx74 .
+
+_:node1ahttdknbx75 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2005.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "476350.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx75 .
+
+_:node1ahttdknbx76 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2005.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "3404960.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx76 .
+
+_:node1ahttdknbx77 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2005.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "26602.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx77 .
+
+_:node1ahttdknbx78 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2005.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "333177.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx78 .
+
+_:node1ahttdknbx79 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2005.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "1012776.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx79 .
+
+_:node1ahttdknbx80 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2005.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "34105.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx80 .
+
+_:node1ahttdknbx81 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2005.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "169205.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx81 .
+
+_:node1ahttdknbx82 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2004.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "6029592.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx82 .
+
+_:node1ahttdknbx83 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2004.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "37731.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx83 .
+
+_:node1ahttdknbx84 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2004.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "486963.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx84 .
+
+_:node1ahttdknbx85 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2004.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "3388220.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx85 .
+
+_:node1ahttdknbx86 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2004.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "23847.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx86 .
+
+_:node1ahttdknbx87 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2004.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "348023.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx87 .
+
+_:node1ahttdknbx88 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2004.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "1003324.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx88 .
+
+_:node1ahttdknbx89 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2004.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "30097.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx89 .
+
+_:node1ahttdknbx90 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2004.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "165779.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx90 .
+
+_:node1ahttdknbx91 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2003.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "6005788.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx91 .
+
+_:node1ahttdknbx92 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2003.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "37140.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx92 .
+
+_:node1ahttdknbx93 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2003.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "487073.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx93 .
+
+_:node1ahttdknbx94 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2003.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "3374374.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx94 .
+
+_:node1ahttdknbx95 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2003.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "21834.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx95 .
+
+_:node1ahttdknbx96 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2003.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "340719.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx96 .
+
+_:node1ahttdknbx97 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2003.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "995970.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx97 .
+
+_:node1ahttdknbx98 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2003.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "27787.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx98 .
+
+_:node1ahttdknbx99 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2003.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "168012.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx99 .
+
+_:node1ahttdknbx100 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2002.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "5984167.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx100 .
+
+_:node1ahttdknbx101 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2002.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "37942.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx101 .
+
+_:node1ahttdknbx102 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2002.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "492073.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx102 .
+
+_:node1ahttdknbx103 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2002.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "3363405.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx103 .
+
+_:node1ahttdknbx104 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2002.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "21700.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx104 .
+
+_:node1ahttdknbx105 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2002.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "341460.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx105 .
+
+_:node1ahttdknbx106 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2002.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "985212.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx106 .
+
+_:node1ahttdknbx107 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2002.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "29800.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx107 .
+
+_:node1ahttdknbx108 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2002.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "168750.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx108 .
+
+_:node1ahttdknbx109 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2001.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "5962666.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx109 .
+
+_:node1ahttdknbx110 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2001.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "36141.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx110 .
+
+_:node1ahttdknbx111 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2001.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "457057.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx111 .
+
+_:node1ahttdknbx112 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2001.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "3352508.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx112 .
+
+_:node1ahttdknbx113 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2001.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "22496.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx113 .
+
+_:node1ahttdknbx114 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2001.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "333539.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx114 .
+
+_:node1ahttdknbx115 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2001.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "971394.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx115 .
+
+_:node1ahttdknbx116 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2001.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "29197.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx116 .
+
+_:node1ahttdknbx117 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2001.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "165221.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx117 .
+
+_:node1ahttdknbx118 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2000.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "5946401.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx118 .
+
+_:node1ahttdknbx119 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2000.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "28644.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx119 .
+
+_:node1ahttdknbx120 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2000.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "473031.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Flemish+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx120 .
+
+_:node1ahttdknbx121 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2000.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "3342986.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx121 .
+
+_:node1ahttdknbx122 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2000.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "18821.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx122 .
+
+_:node1ahttdknbx123 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2000.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "355369.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Walloon+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx123 .
+
+_:node1ahttdknbx124 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2000.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "961861.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasPopulation> _:node1ahttdknbx124 .
+
+_:node1ahttdknbx125 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2000.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "22729.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasExternalimmigration> _:node1ahttdknbx125 .
+
+_:node1ahttdknbx126 <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#inthisYear> "2000.0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasValue> "165185.0"^^<http://www.w3.org/2001/XMLSchema#int> .
+
+<http://localhost:3333/Brussels-Capital+Region> <http://www.semanticweb.org/user/ontologies/2016/4/pfeOntology#hasNumberOfcrimes> _:node1ahttdknbx126 .
