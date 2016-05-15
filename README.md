@@ -24,8 +24,8 @@ I converted the data to RDF form using LODrefine and Protégé(for owl)
 * Step3 :
 To write some SPARQL queries
 
-*Step4 :
+* Step4 :
 visualization of linked data & Starting the report
 
-*Step 5:
+* Step 5:
 Creating an interactiv map with statplanet
