@@ -29,3 +29,6 @@ visualization of linked data & Starting the report
 
 * Step 5:
 Creating an interactiv map with statplanet
+
+* Step 6 :
+Building a user interface
