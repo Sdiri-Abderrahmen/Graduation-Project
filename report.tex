@@ -1,4 +1,6 @@
 \documentclass[a4paper,12pt,oneside]{report}
+\usepackage[final]{listings}
+\lstset{breaklines=true}
 \usepackage{graphicx}
 \graphicspath{ {images/} }
 \setcounter{tocdepth}{4}
@@ -31,7 +33,7 @@ Examples of data products include answers to questions such as:
 “Which of my products should I advertise more heavily to increase profit? How can I improve my compliance program, while reducing costs? What manufacturing process change will allow me to build a better product?” The key to answering these questions is: understand the data you have and what the data inductively tells you.
 Data scientists use their data and analytical ability to find and interpret rich data sources, manage large amounts of data despite hardware, software, and bandwidth constraints.They merge also data sources and ensure consistency of datasets, moreover data scientists  create visualizations to aid in understanding data.In addition they build mathematical models using the data and present and communicate the data insights/findings. They are often expected to produce answers in days rather than months, work by exploratory analysis and rapid iteration, and to produce and present results with dashboards (displays of current values) rather than papers/reports, as statisticians normally do.}
 \subsection{Data Science Activities }
-{Data Science is a complex field. It is difficult, intellectually taxing work, which requires the sophisticated integration of talent, tools and techniques. But we need to cut through the complexity and provide a clear, yet effective way to understand this new world. To do this, we will transform the field Data Science into a set of simplified activities a, The Four Key Activities of a Data Science Endeavor. 
+{Data Science is a complex field. It is difficult, intellectually taxing work, which requires the sophisticated integration of talent, tools and techniques. But we need to cut through the complexity and provide a clear, yet effective way to understand this new world. To do this, we will transform the field Data Science into a set of simplified activities a, The Four Key Activities of a Data Science Endeavor.
 \begin{enumerate}
 \item \textbf {To acquire:} {This activity focuses on obtaining the data you need. Given the nature of data, the details of this activity depend heavily on who you are and what you do. As a result, we will not spend a lot of time on this activity other than to emphasize its importance and to encourage an expansive view onwhich data can and should be used.}
 \item \textbf {To prepare:} {Great outcomes don’t just happen by themselves. A lot depends on preparation, and in Data Science, that means manipulating the data to fit your analytic needs.
@@ -124,7 +126,7 @@ The Semantic Web is a mesh of information linked up in such a way as to be easil
 The Semantic Web was thought up by Tim Berners-Lee, inventor of the WWW, URIs, HTTP, and HTML. There is a dedicated team of people at the World Wide Web consortium (W3C) working to improve, extend and standardize the system, and many languages, publications, tools and so on have already been developed. However, Semantic Web technologies are still very much in their infancies, and although the future of the project in general appears to be bright, there seems to be little consensus about the likely direction and characteristics of the early Semantic Web
       In addition to the classic “Web of documents” W3C is helping to build a technology stack to support a “Web of data,” the sort of data you find in databases. The ultimate goal of the Web of data is to enable computers to do more useful work and to develop systems that can support trusted interactions over the network. The term “Semantic Web” refers to W3C’s vision of the Web of linked data. Semantic Web technologies enable people to create data stores on the Web, build vocabularies, and write rules for handling data. Linked data are empowered by technologies such as RDF, SPARQL, OWL, and SKOS.}
 \subsection{Semantic web architecture}
-  
+
 \begin{figure}[h!]
 \centering
 \includegraphics[width=1\textwidth]{Capture0}
@@ -149,8 +151,15 @@ More detailed ontologies can be created with Web Ontology Language OWL. The OWL 
 
 
 
-	
 
+\appendix
+
+\section{Source Code}
+
+\begin{lstlisting}
+  print('Hello World!')
+     use indentation and {special &characters}
+\end{lstlisting}
 
 
 
