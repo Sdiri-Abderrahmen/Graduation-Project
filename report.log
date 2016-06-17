@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.5.8)  16 JUN 2016 03:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.5.8)  16 JUN 2016 16:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -53,6 +53,10 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
+(c:/texlive/2015/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
 (c:/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -83,18 +87,18 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 ) (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
 \c@lstlisting=\count97
 (c:/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -160,17 +164,17 @@ e
 <university.png, id=1, 200.75pt x 52.195pt>
 File: university.png Graphic file (type png)
  <use university.png>
-Package pdftex.def Info: university.png used on input line 13.
+Package pdftex.def Info: university.png used on input line 15.
 (pdftex.def)             Requested size: 200.7495pt x 52.19487pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 13.
+(Font)              <14.4> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 13.
+(Font)              <7> on input line 15.
  [1
 
 {c:/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./university.pn
 g>]
-Overfull \hbox (31.58176pt too wide) in paragraph at lines 15--17
+Overfull \hbox (31.58176pt too wide) in paragraph at lines 17--19
 \OT1/cmr/m/n/12 gra-tion and num-ber of crimes in the 3 re-gions of Belgium(Fle
 mish,Walloon,Brussels-
  []
@@ -216,7 +220,7 @@ Missing character: There is no î in font cmr12!
 [2]
 Chapter 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--32
+Underfull \hbox (badness 10000) in paragraph at lines 35--37
 
  []
 
@@ -251,19 +255,15 @@ Missing character: There is no ì in font cmr12!
 File: "Data science activities".png Graphic file (type png)
 
 <use "Data science activities".png>
-Package pdftex.def Info: "Data science activities".png used on input line 52.
+Package pdftex.def Info: "Data science activities".png used on input line 57.
 (pdftex.def)             Requested size: 390.0pt x 235.63478pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
-[4]
+ [4]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
@@ -293,7 +293,7 @@ Missing character: There is no ù in font cmr12!
 <Capture2.png, id=48, 485.56406pt x 319.1925pt>
 File: Capture2.png Graphic file (type png)
  <use Capture2.png>
-Package pdftex.def Info: Capture2.png used on input line 91.
+Package pdftex.def Info: Capture2.png used on input line 96.
 (pdftex.def)             Requested size: 390.0pt x 256.37227pt.
  [6] [7 <./Capture2.png>] [8]
 Missing character: There is no ‚ in font cmr12!
@@ -315,24 +315,24 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
  [9]
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
+Underfull \hbox (badness 10000) in paragraph at lines 125--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
+Underfull \hbox (badness 10000) in paragraph at lines 125--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
+Underfull \hbox (badness 10000) in paragraph at lines 125--127
 
  []
 
 [10]
 Chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--127
+Underfull \hbox (badness 10000) in paragraph at lines 130--132
 
  []
 
@@ -344,4 +344,85 @@ Missing character: There is no Ä in font cmr12!
 Missing character: There is no ì in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+[11
+
+] <Capture0.png, id=69, 385.44pt x 281.55188pt>
+File: Capture0.png Graphic file (type png)
+ <use Capture0.png>
+Package pdftex.def Info: Capture0.png used on input line 143.
+(pdftex.def)             Requested size: 390.0pt x 284.88068pt.
+ [12]
+[13 <./Capture0.png>]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+ [14]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+
+Overfull \hbox (32.46922pt too wide) in paragraph at lines 171--173
+\OT1/cmr/m/n/12 <http://example.org/person/Abderrahmen> <http://example.org/rel
+ation/student>
+ []
+
+[15]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 186.
+
+ (c:/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 186.
+ [16] (./report.aux) )
+(\end occurred inside a group at level 3)
+
+### simple group (level 3) entered at line 157 ({)
+### simple group (level 2) entered at line 151 ({)
+### simple group (level 1) entered at line 45 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 2819 strings out of 493027
+ 40462 string characters out of 6137685
+ 110525 words of memory out of 5000000
+ 6340 multiletter control sequences out of 15000+600000
+ 9583 words of font info for 34 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 37i,8n,32p,2657b,1173s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
+12.pfb><c:/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2015/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on report.pdf (23 pages, 268039 bytes).
+PDF statistics:
+ 107 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+

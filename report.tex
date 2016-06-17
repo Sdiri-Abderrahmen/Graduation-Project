@@ -1,9 +1,11 @@
 \documentclass[a4paper,12pt,oneside]{report}
 \usepackage[final]{listings}
+\usepackage{url}
 \lstset{breaklines=true}
 \usepackage{graphicx}
 \graphicspath{ {images/} }
 \setcounter{tocdepth}{4}
+\hbadness=5000
 \begin{document}
 \title{
 { Implementing and Developing Geo-visualization techniques showing the large amount of historical and geospatial and temporal data available in the Linked Open Data Cloud on a specific example }\\
@@ -26,6 +28,9 @@
 a matching format is not enough. One needs to specify how the data should be linked together.There are many ways of doing that. Starting with implementing the logic into a simple conversion script according to a specific dataset to introducing a more complex metadata description framework for purposes of generic data processing. Since one of the most attractive tasks in this area is to be able to connect any of the datasets available on the Internet, we are interested in the generic description frameworks. We would like to have a tool, which enables us to work with any data on the Internet formatted according to some kind of rules. We would like to link them together, analyze them and visualize them.
 One of the most used description frameworks is the Resource Description Framework . It is a standard model for data interchange on the Web. It tells us how to describe resources on the Internet in order to allow other people, applications and tools to understand such a description. That gives us a potentialto link any data on the Internet. Based on the framework, a new model named Linked Data was introduced. The model has been brought up to make data interconnecting easier.
 The result of interconnecting data while utilizing the principles of the Linked Data model and Resource Description Framework is a directed graph. Its vertices represent resources we have information about. The edges stand for relations between such entities. From this point on, it is up to us, how we look at the data. We can either explore them in a plain graph or apply some more semantics and make domain specific visualizations while using ontologies and other advanced techniques.One of the specific domains are statistical data, which are one of the most interesting kind of data. They are produced and processed by many stakeholders. In the context of Linked Open Data, the most interesting are, of course,governments and scientific groups. But we would like to work with such data in the usual way — make tables, charts or more interesting visualizations. }
+
+In section \ref{sec:sem}, we look at the semantic web.
+
 \chapter{Data science}
 \textbf{\large Introduction}\\ \\
 {In this chapter, we make an overview of data science by explaining the main idea behind it and its main purpose. We will also  present its activities .Besides ,we will focus  on data analysis part  which is among basic concepts of this work. The benefits of data analysis will be set in the end of this chapter.}
@@ -47,7 +52,7 @@ It is also the most challenging and exciting (you will see a lot of ‘aha momen
 \item \textbf {To Act:} {Every effective Data Science team analyzes its data with a purpose – that is, to turn data into actions. Actionable and impactful insights are the holy grail of Data Science.
 Converting insights into action can be a politically charged activity, however. This activity depends heavily on the culture and character of your organization, so we will leave you to figure out those details for yourself.}
 \end{enumerate}
-\begin{figure}[h!]
+\begin{figure}[ht]
 \centering
 \includegraphics[width=1\textwidth]{"Data science activities"}
 \caption{Data science activities}
@@ -86,7 +91,7 @@ Examples are color, smell, taste&Examples are volume, weight, etc.\\
 {Analysis refers to breaking a whole into its separate components for individual examination. Data analysis is a process for obtaining raw data and converting it into information useful for decision-making by users. Data is collected and analyzed to answer questions, test hypotheses or disprove theories.
 Statistician John Tukey defined data analysis in 1961 as: "Procedures for analyzing data, techniques for interpreting the results of such procedures, ways of planning the gathering of data to make its analysis easier, more precise or more accurate, and all the machinery and results of (mathematical) statistics which apply to analyzing data. "
 There are several phases that can be distinguished, described below. The phases are iterative, in that feedback from later phases may result in additional work in earlier phases.}
-\begin{figure}[h!]
+\begin{figure}[ht]
 \centering
 \includegraphics[width=1\textwidth]{Capture2}
 \caption{The process of data science}
@@ -125,6 +130,7 @@ The process of evaluating data using analytical and logical reasoning to examine
 \textbf{\large Introduction}\\ \\
 {This chapter contains the basis of the semantic web .It presents also the well known Resource Description Framework and its query language SPARQL and finally we will have a deep idea about linked data notion.}
 \section{Semantic web}
+\label{sec:sem}
 \subsection{Overview}
 {       The current web represents information using natural languages, graphics and multimedia objects which can be easily understood and processed by an average user. Some tasks on the web require combining data on the web from different sources e.g. travel and hotel information may come from different web sites when booking for a trip. Humans can merge this information and process them quite easily. However, machines can not combine such information and process it. Most of the Web’s content today is designed for humans to read, not for computer programs to manipulate meaningfully. Computers can adeptly parse Web pages for layout and routine processing – here a header, there a link to another page – but in general, computers have no reliable way to process the semantics.
 The Semantic Web will bring structure to the meaningful content of Web pages, creating an environment where software agents roaming from page to page can readily carry out sophisticated tasks for users.The Semantic Web is not a separate Web but an extension of the current one, in which information is given well-defined meaning, better enabling computers and people to work in cooperation.
@@ -132,7 +138,7 @@ The Semantic Web is a mesh of information linked up in such a way as to be easil
 The Semantic Web was thought up by Tim Berners-Lee, inventor of the WWW, URIs, HTTP, and HTML. There is a dedicated team of people at the World Wide Web consortium (W3C) working to improve, extend and standardize the system, and many languages, publications, tools and so on have already been developed. However, Semantic Web technologies are still very much in their infancies, and although the future of the project in general appears to be bright, there seems to be little consensus about the likely direction and characteristics of the early Semantic Web
       In addition to the classic “Web of documents” W3C is helping to build a technology stack to support a “Web of data,” the sort of data you find in databases. The ultimate goal of the Web of data is to enable computers to do more useful work and to develop systems that can support trusted interactions over the network. The term “Semantic Web” refers to W3C’s vision of the Web of linked data. Semantic Web technologies enable people to create data stores on the Web, build vocabularies, and write rules for handling data. Linked data are empowered by technologies such as RDF, SPARQL, OWL, and SKOS.}
 \subsection{Semantic web architecture}
-\begin{figure}[h!]
+\begin{figure}[ht]
 \centering
 \includegraphics[width=1\textwidth]{Capture0}
 \caption{Semantic web architecture}
@@ -157,15 +163,13 @@ More detailed ontologies can be created with Web Ontology Language OWL. The OWL 
 {Since RDF is meant to be machine-processable, evey resource has to be unique to avoid confusion. The Web offers URI references to deal with this problem. Subjects and predicates are resources, and thus are to be represented by a URI reference. Objects can be resources, though they also can be a literal, which is a non-decomposable object, like a string or a number}
 \subsection{Representation}
 {RDF has in fact an inherent graph based structure, which can be serialized using turte, RDF/XML and others. The next paragraphs introduce representations for a group of statements. Forsome representations, an example is given for “Abderrahmen is called Abderrahmen S and is 24 years old. Ahmed is his friend. The FOAF  ontology is used to describe these statements. Note that since URIs can be long, they can be shortened in a more clear notation, using prefixes. Therefore a URI reference is split up in a namespace and local name.
-This namespace is represented by a prefix. The notation is shortened as prefix:local_name. For instance, http://xmlns.com/foaf/0.1/name  is equivalent to foaf:name, using foaf as aprefix for  http://xmlns.com/foaf/0.1/.
+This namespace is represented by a prefix. The notation is shortened as  \verb!prefix:local_name!. For instance,\url{ http://xmlns.com/foaf/0.1/name}  is  equivalent to \verb!foaf:name!, using foaf as a prefix for  \url{http://xmlns.com/foaf/0.1/}.}
 \subsubsection{Graph model notation}
 {RDF statements lend themselves easily to be represented as a graph. Subjects and objects are the equivalent of the nodes and predicates are labeled edges. Conceptually this means that a subject is connected to an object by means of a predicate. The following graph is the
 representation of the earlier given example. Note that every resource, used as a subject or object, is unique; per resource only one node exists.}
-\begin{figure}[h!]
-\centering
-\includegraphics[width=1\textwidth]{Capture3}
-\caption{Exampel of RDF graph}
-\end{figure}
+\subsubsection{Turtle}
+{Turtle (Terse RDF Triple Language) is a format for expressing data in the Resource Description Framework (RDF) data model with a syntax similar to SPARQL. RDF, in turn, represents information using "triples", each of which consists of a subject, a predicate, and an object. Each of those items is expressed as a Web URI.Turtle provides a way to group three URIs to make a triple, and provides ways to abbreviate such information, for example by factoring out common portions of URIs. For example:\\
+<http://example.org/person/Abderrahmen> <http://example.org/relation/student>  <http://example.org/engineeringSchools/SUP'COM> .}
 
 
 
