@@ -116,12 +116,12 @@ Inferential statistics includes techniques to measure relationships between part
 {Data visualization is used to understand the results of a data analysis. Once the data is analyzed, it may be reported in many formats to the users of the analysis to support their requirements. The users may have feedback, which results in additional analysis. As such, much of the analytical cycle is iterative.When determining how to communicate the results, the analyst may consider data visualization techniques to help clearly and efficiently communicate the message to the audience. Data visualization uses information displays such as tables and charts to help communicate key messages contained in the data. Tables are helpful to a user who might lookup specific numbers, while charts (e.g., bar charts or line charts) may help explain the quantitative messages contained in the data.}
 \subsection{Benefits of Data Analysis}
 {The main benefits of data analysis are rather self-evident. How can someone improve their processes and identify problematic issues if they are not willing to look at the data? The answer, of course, is that they cannot make reliable improvements without data analysis. The key word here is “reliable!” Most people have a general idea about possible changes that “should” or “could” improve their processes. However, when it comes to these sorts of changes there is the inherent risk that the change does not have the desired result. There can also be unexpected consequences that impact some other aspect of that organization in a negative manner. Having said that, the following are just some of the benefits of proper data analysis:
-\begin{enumerate}
+\begin{itemize}
 \item {Allows for the identification of important (and often mission-critical) trends}
 \item {Helps businesses identify performance problems that require some sort of action Can be viewed in a visual manner, which leads to faster and better decisions}
 \item {Better awareness regarding the habits of potential customers}
 \item{It can provide a company with an edge over their competitors}
-\end{enumerate} 
+\end{itemize} 
 The process of evaluating data using analytical and logical reasoning to examine each component of the data provided. This form of analysis is just one of the many steps that must be completed when conducting a research experiment. Data from various sources is gathered, reviewed, and then analyzed to form some sort of finding or conclusion. There are a variety of specific data analysis method, some of which include data mining, text analytics, business intelligence, and data visualizations.}\\ \\
 \textbf{\large Conclusion}\\ \\
 
@@ -145,31 +145,95 @@ The Semantic Web was thought up by Tim Berners-Lee, inventor of the WWW, URIs, H
 \end{figure}
 {  The first layer, URI and Unicode, follows the important features of the existing WWW. Unicode is a standard of encoding international character sets and it allows that all human languages can be used (written and read) on the web using one standardized form. Uniform Resource Identifier (URI) is a string of a standardized form that allows to uniquely identify resources (e.g., documents). A subset of URI is Uniform Resource Locator (URL), which contains access mechanism and a (network) location of a document - such as http://www.example.org/. Another subset of URI is URN that allows to identify a resource without implying its location and means of dereferencing it - an example is urn:isbn:0-123-45678-9. The usage of URI is important for a distributed internet system as it provides understandable identification of all resources. An international variant to URI is Internationalized Resource Identifier (IRI) that allows usage of Unicode characters in identifier and for which a mapping to URI is defined. In the rest of this text, whenever URI is used, IRI can be used as well as a more general concept.Extensible Markup Language (XML) layer with XML namespace and XML schema definitions makes sure that there is a common syntax used in the semantic web. XML is a general purpose markup language for documents containing structured information. A XML document contains elements that can be nested and that may have attributes and content. XML namespaces allow to specify different markup vocabularies in one XML document. XML schema serves for expressing schema of a particular set of XML documents.A core data representation format for semantic web is Resource Description Framework (RDF). RDF is a framework for representing information about resources in a graph form. It was primarily intended for representing metadata about WWW resources, such as the title, author, and modification date of a Web page, but it can be used for storing any other data. It is based on triples subject-predicate-object that form graph of data. All data in the semantic web use RDF as the primary representation language. The normative syntax for serializing RDF is XML in the RDF/XML form. Formal semantics of RDF is defined as well.RDF itself serves as a description of a graph formed by triples. Anyone can define vocabulary of terms used for more detailed description. To allow standardized description of taxonomies and other ontological constructs, a RDF Schema (RDFS) was created together with its formal semantics within RDF. RDFS can be used to describe taxonomies of classes and properties and use them to create lightweight ontologies.
 More detailed ontologies can be created with Web Ontology Language OWL. The OWL is a language derived from description logics, and offers more constructs over RDFS. It is syntactically embedded into RDF, so like RDFS, it provides additional standardized vocabulary. OWL comes in three species - OWL Lite for taxonomies and simple constrains, OWL DL for full description logic support, and OWL Full for maximum expressiveness and syntactic freedom of RDF. Since OWL is based on description logic, it is not surprising that a formal semantics is defined for this language.RDFS and OWL have semantics defined and this semantics can be used for reasoning within ontologies and knowledge bases described using these languages. To provide rules beyond the constructs available from these languages, rule languages are being standardized for the semantic web as well. Two standards are emerging - RIF and SWRL.For querying RDF data as well as RDFS and OWL ontologies with knowledge bases, a Simple Protocol and RDF Query Language (SPARQL) is available. SPARQL is SQL-like language, but uses RDF triples and resources for both matching part of the query and for returning results of the query. Since both RDFS and OWL are built on RDF, SPARQL can be used for querying ontologies and knowledge bases directly as well. Note that SPARQL is not only query language, it is also a protocol for accessing RDF data.}
-\subsection{Resource Description framework}
-{The Resource Description Framework 1 (RDF) is a language for representing information about resources in the World Wide Web. A resource is a physical or virtual entity, such as a personor an IP packet. RDF describes those resources in a subject-predicate-object structure.}
-\subsubsection{Concept}
+\section{Resource Description framework}
+{The Resource Description Framework (RDF) is a language for representing information about resources in the World Wide Web. A resource is a physical or virtual entity, such as a personor an IP packet. RDF describes those resources in a subject-predicate-object structure.}
+\subsection{Concept}
 {RDF represents information by means of statements in a Subject-Predicate-Object structure:
-\begin{enumerate}
+\begin{itemize}
 \item {Subject: a resource that is described by the statement}
 \item {Predicate: a property of the resource that is described}
 \item {Object: the value of the property of the resource that is described}
-\end{enumerate} 
+\end{itemize} 
 {Take for example the statement “Abderrahmen's emailAdress is abderrahmen.sdiri@supcom.tn”. The parts are:
-\begin{enumerate}
+\begin{itemize}
 \item {Subject:Abderrahmen }
 \item {Predicate:emailAdress}
 \item {Object: abderrahmen.sdiri@supcom.tn}
-\end{enumerate}
+\end{itemize}
 {Since RDF is meant to be machine-processable, evey resource has to be unique to avoid confusion. The Web offers URI references to deal with this problem. Subjects and predicates are resources, and thus are to be represented by a URI reference. Objects can be resources, though they also can be a literal, which is a non-decomposable object, like a string or a number}
 \subsection{Representation}
 {RDF has in fact an inherent graph based structure, which can be serialized using turte, RDF/XML and others. The next paragraphs introduce representations for a group of statements. Forsome representations, an example is given for “Abderrahmen is called Abderrahmen S and is 24 years old. Ahmed is his friend. The FOAF  ontology is used to describe these statements. Note that since URIs can be long, they can be shortened in a more clear notation, using prefixes. Therefore a URI reference is split up in a namespace and local name.
 This namespace is represented by a prefix. The notation is shortened as  \verb!prefix:local_name!. For instance,\url{ http://xmlns.com/foaf/0.1/name}  is  equivalent to \verb!foaf:name!, using foaf as a prefix for  \url{http://xmlns.com/foaf/0.1/}.}
-\subsubsection{Graph model notation}
+\subsection{Graph model notation}
 {RDF statements lend themselves easily to be represented as a graph. Subjects and objects are the equivalent of the nodes and predicates are labeled edges. Conceptually this means that a subject is connected to an object by means of a predicate. The following graph is the
 representation of the earlier given example. Note that every resource, used as a subject or object, is unique; per resource only one node exists.}
-\subsubsection{Turtle}
+\subsection{RDF Turtle}
 {Turtle (Terse RDF Triple Language) is a format for expressing data in the Resource Description Framework (RDF) data model with a syntax similar to SPARQL. RDF, in turn, represents information using "triples", each of which consists of a subject, a predicate, and an object. Each of those items is expressed as a Web URI.Turtle provides a way to group three URIs to make a triple, and provides ways to abbreviate such information, for example by factoring out common portions of URIs. For example:\\
-<http://example.org/person/Abderrahmen> <http://example.org/relation/student>  <http://example.org/engineeringSchools/SUP'COM> .}
+\url{<http://example.org/person/Abderrahmen>} \url{<http://example.org/relation/student>}  \url{<http://example.org/engineeringSchools/SUP'COM>} .}
+\subsection{RDF XML}
+{RDF uses XML as a structure to guarantee the machine-pro cess ability and interchangeability.XML is a markup language that allows creating a custom do cument format. Hence, RDF/XMLis a representation for state ments.}
+\subsection {RDFS}
+{RDF is used to structure and represent statements about resources. It does not specify what the meaning of those statements is. In other words, the statements lack semantics. RDFS (RDF Schema) deals with that problem and offers the possibility to create vocabularies, also written in RDF. Therefore RDFS uses the notion of classes and properties. The vocabularies describe the semantics of these classes and properties. By using them in RDF, reuse of semantics is possible. RDFS has many other features, including domain and range definition for a property. The next figure is an example of a simple vocabulary of an animal. Pet has two subclasses Mammal and Bird. Dog is a subclass of Mammal. Due to the subclassing, all mammels (including dogs) and birds also have the property name, which is defined for Pet and is a literal}
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{Capture4}
+\caption{RDF Schema Example}
+\end{figure}
+{Therefore, RDF Schema language, provides the syntax for defining the general RDF vocabulary as well as domain-specific vocabularies. RDFS is built on top of RDF, so that RDFS data is also valid RDF data.  RDFS introduces the concepts of classes and their properties.  In particular, RDFS allows for specifying classification and generalisation hierarchies for both metadata properties and values. Using RDFS it is possible to distinguish between RDF instance data and its schema.}
+\section{OWL}
+{ OWL  (Web Ontology Language) is, like RDFS, a language to define vocabularies. It facilitates greater machine interpretability by providing more vocabulary, thus is more expressive thanRDFS. OWL adds, among others, cardinality, relations between classes and more properties.
+OWL comes in three flavours, which are ordered by increasing expressiveness:
+\begin{itemize}
+\item {OWL Lite only defines a classification hierarchy and simple cardinality constraints. }
+\item { OWL DL supports maximum expressiveness and guarantees computational completeness
+(computable). Every computation also is decidable (finishes in a finite time).}
+\item { OWL Full handles every aspect of OWL DL without any computational guarantees.}
+\end{itemize}
+While it is possible to define your own vocabularies, reusing existing ones facilitates understandability of your data. A commmonly used vocabulary to describe persons is Friend-Of-A-Friend (FOAF).\\
+Thus ,ontologies are used to capture knowledge about some domain of interest. An ontology describes the concepts in the domain and also the relationships that hold between those concepts. Different ontology languages provide different facilities. The most recent development in standard ontology languages is OWL from the World Wide Web Consortium (W3C) . Like Protégé, OWL makes it possible to describe concepts but it also provides new facilities. It has a richer set of operators - e.g. intersection, union and negation. It is based on a different logical model which makes it possible for concepts to be defined as well as described. Complex concepts can therefore be built up in definitions out of simpler concepts. Furthermore, the logical model allows the use of a reasoner which can check whether or not all of the statements and definitions in the ontology are mutually consistent and can also recognise which concepts fit under which definitions. The reasoner can therefore help to maintain the hierarchy correctly. This is particularly useful when dealing with cases where classes can have more than one parent.}
+\section{SPARQL and SPARQL Endpoints}
+SPARQL (SPARQL Protocol and RDF Query Language) is a query language for RDF. It also anchors the protocol which clients use to access a SPARQL endpoint.
+\subsection{Syntax}
+\chapter{Linking open data project}
+\textbf{\large Introduction}\\ \\
+\section{Open Data}
+{Even though the term Open Data is currently in frequent use, there is no commonly agreed definition. We will use the one provided by the Open Knowledge Definition (OKD) project. OKD considers data as any kind of content from “sonnets to statistics, genes to geodata”. According to the OKD definition, data is open “if anyone is free to use, reuse, and redistribute it - subject only, at most, to the requirement to attribute and sharealike”. This definition considers three aspects of data openness: social, technological and legal. Social openness means that the data must be accessible as a whole, and not only few items of it at a time (e.g., by downloading). By technological openness OKD considers absence of any technological obstacles to access and reuse the data (e.g., no,access control and open formats). Legal openness is established by open data licenses.\\
+\textbf{Open Data licensing} Open licenses meet the requirements of Open Data and grant permissions to access, reuse and redistribute data with few or no restrictions. In order to enable people to use the data on the Web on a secure legal basis, one needs to
+explicitly state which license applies to your data. It is important to apply open data licenses simply for the sake of clarity. Without a license it is not clear if the data can be used, reused and distributed by others. Examples of open licenses include Public
+Domain Dedication and License (PDDL) and Attribution License by the Open Data Commons project, the GNU Free Documentation License and the licenses prepared by the Creative Commons Attribution project, such as Creative Commons AttributionShare-Alike (cc-by-sa).\\
+\textbf{Open data sets}There are various interesting open data sets available on the Web. A well-known example of open data is Wikipedia. Most of the Wikipedia’s text and many of its images are under open licenses. Other examples of open data are Wikibooks, Geonames, MusicBrainz, WordNet and the DBLP bibliography. Google Maps is an example of data that is not open, since the geodata is currently proprietary (copyrighted or protected by DB rights).In general, Open Data can come from anywhere. One of the biggest source of Open Data is the government domain. Open Government Data is a global movement of governments starting to open their information from public sector. 
+The pioneers were the governments of the U.S.  and the U.K, and many more governments have already joined the movement, including Australia, Netherlands, Spain, Austria, Denmark}
+\section{Linked Data}
+{The term Linked Data was coined by Tim Berners-Lee in 2006 in his design note . He outlined a set of recommendations, referred to as Linked Data principles, on how to complement the current Web of human-oriented documents with a Web of machineenabled data. Tim Berners-Lee proposed to apply the same ideas that are successfully used for making the current Web, to publish and interlink data in such a way that machines can also process it and extract its meaning, i.e., build a Web of Data.\\
+\subsection{The Linked Data principles}
+{The Linked Data principles in its original reading are as follows :}\\
+\begin{enumerate}
+\item{Use URIs as names for things}
+\item{Use HTTP URIs so that people can look up those names}
+\item{When someone looks up a URI, provide useful information, using the standards (RDF,SPARQL)}
+\item{Include links to other URIs. so that they can discover more things}
+\end{enumerate}
+\textbf{The Linked Data principles in a nutshell}The classic Web provides humans with data. It can be any kind of data, e.g., air temperature, somebody’s personal profile, official government reports, etc. The data is represented in the form of documents (e.g.,
+HTML Web pages). Documents can be processed by machines that can “understand” the structure of the documents (e.g., paragraphs, titles, tables, etc.) and present them in a more convenient way for humans to read and comprehend the data carried out by the documents. However, the meaning of the data is mostly given as a plain text and hidden from the machines. It is hard for software applications to extract semantics from HTML pages. To allow machines to “understand” the meaning of the data, we
+need to be able to describe not only the structure of the documents, but the data itself. At its most basic, data is made up of any kind of things that exists in the world, i.e., real-world objects (e.g., people, countries, building, etc.) or abstract concepts (e.g.,
+air temperature, the fact of knowing somebody, etc.). Thus, the Web of Data extends the scope of the traditional Web from documents to encompass real-world objects and abstract concepts.
+The first and second Linked Data principles define a mechanism to name any thing that exists in the world using the existing Web standards, such as URI and HTTP (we will discuss URIs and HTTP technologies in Section 4.2.1), and make them accessible
+on the Web. For example, by using the Linked Data principles one can give a name the concept of city of Lisbon and publish it on the Web. Note that the city of Lisbon and its homepage are not the same concept. For this reason they must be named with two
+different URIs.\\
+The conventional Web has its standard way to describe documents on the Web, i.e., HTML is used to create Web pages. The third Linked Data principle recommends to use the Resource Description Framework (RDF) to describe things in the world in a machine-redable manner (we will look in more detail into RDF in Section 4.2.3). In RDF one can provide descriptions of real-world concepts in the form of sentences. For example, one may describe the Lisbon city as follows: Lisbon is the capital of Portugal; Lisbon has population 545,245 people, etc.
+Finally, links are an integral part of a Web. Documents on the classic Web are connected by means of the hypertext links. Similarly, the fourth Linked Data principle claims to connect data on the Web by setting links to data from other data sources.
+Links on the Web of Data are defined using RDF and referred to as RDF links (we will discuss RDF links in Section 5.1.1). Unlike the hypertext links, the links on the Web
+of Data not only connect two pieces of data together, they also provide semantics for this connection. The RDF links look like sentences as well, just involve concepts that
+were defined by different people. For example, if you define the concept of the city of
+Lisbon and discover that somebody else in another dataset defined the concept of Portugal, then the following link can be set Lisbon is the capital of Portugal (where Portugal is the concept from that external dataset). Thus, you can connect your data with this
+external dataset.\\
+\textbf{Linked Data vs Linked Open Data} The fact that Linked Data is defined in a personal note of Tim Berners-Lee and is not formally endorsed by W3C contributes to the ambiguity of the definition of the concept of Linked Data. The discussions regarding this
+topic generally come down to which technology is used to represent data. Some people argue that RDF is integral to Linked Data, others suggest that, while it may be desirable, use of RDF is optional rather than mandatory. Some reserve the capitalized term
+Linked Data for data that is based on RDF, preferring lower case linked data, or linkable data, for data that uses other technologies. In our work we will use the term Linked Data
+to refer to data published on the Web in accordance with the Linked Data principles. We will also stick to the most common opinion that RDF is a standard for representing Linked Data. When we want to emphasize that the Linked Data principles were
+applied to Open Data we will use the term Linked Open Data.}
+
+
 
 
 
