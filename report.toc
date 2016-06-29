@@ -2,37 +2,44 @@
 \contentsline {section}{\numberline {1.1}Data science}{3}
 \contentsline {subsection}{\numberline {1.1.1}Overview}{3}
 \contentsline {subsection}{\numberline {1.1.2}Data Science Activities }{4}
-\contentsline {section}{\numberline {1.2}Data analysis}{5}
-\contentsline {subsection}{\numberline {1.2.1}Definition}{5}
-\contentsline {subsection}{\numberline {1.2.2}Types of data analysis }{5}
-\contentsline {subsubsection}{Qualitative Analysis}{6}
-\contentsline {subsubsection}{Quantitative Analysis}{6}
-\contentsline {subsection}{\numberline {1.2.3}The process of data analysis }{6}
-\contentsline {subsubsection}{Data requirements}{7}
-\contentsline {subsubsection}{Data collection}{8}
-\contentsline {subsubsection}{Data processing}{8}
-\contentsline {subsubsection}{Data cleaning}{8}
-\contentsline {subsubsection}{Exploratory data analysis}{8}
-\contentsline {subsubsection}{Modeling and algorithms}{9}
-\contentsline {subsubsection}{Data product}{9}
-\contentsline {subsubsection}{Communication}{9}
-\contentsline {subsection}{\numberline {1.2.4}Benefits of Data Analysis}{10}
-\contentsline {chapter}{\numberline {2}Semantic technologies}{11}
-\contentsline {section}{\numberline {2.1}Semantic web}{11}
-\contentsline {subsection}{\numberline {2.1.1}Overview}{11}
-\contentsline {subsection}{\numberline {2.1.2}Semantic web architecture}{12}
-\contentsline {section}{\numberline {2.2}Resource Description framework}{14}
-\contentsline {subsection}{\numberline {2.2.1}Concept}{14}
-\contentsline {subsection}{\numberline {2.2.2}Representation}{15}
-\contentsline {subsection}{\numberline {2.2.3}Graph model notation}{15}
-\contentsline {subsection}{\numberline {2.2.4}RDF Turtle}{15}
-\contentsline {subsection}{\numberline {2.2.5}RDF XML}{16}
-\contentsline {subsection}{\numberline {2.2.6}RDFS}{16}
-\contentsline {section}{\numberline {2.3}OWL}{17}
-\contentsline {section}{\numberline {2.4}SPARQL and SPARQL Endpoints}{17}
-\contentsline {subsection}{\numberline {2.4.1}Syntax}{18}
-\contentsline {chapter}{\numberline {3}Linking open data project}{19}
-\contentsline {section}{\numberline {3.1}Open Data}{19}
-\contentsline {section}{\numberline {3.2}Linked Data}{20}
-\contentsline {subsection}{\numberline {3.2.1}The Linked Data principles}{20}
-\contentsline {section}{\numberline {.1}Source Code}{22}
+\contentsline {section}{\numberline {1.2}Data analysis}{8}
+\contentsline {subsection}{\numberline {1.2.1}Definition}{8}
+\contentsline {subsection}{\numberline {1.2.2}Types of data analysis }{8}
+\contentsline {subsubsection}{Qualitative Analysis}{8}
+\contentsline {subsubsection}{Quantitative Analysis}{9}
+\contentsline {subsection}{\numberline {1.2.3}The process of data analysis }{9}
+\contentsline {subsubsection}{Data requirements}{10}
+\contentsline {subsubsection}{Data collection}{10}
+\contentsline {subsubsection}{Data processing}{11}
+\contentsline {subsubsection}{Data cleaning}{11}
+\contentsline {subsubsection}{Exploratory data analysis}{11}
+\contentsline {subsubsection}{Modeling and algorithms}{11}
+\contentsline {subsubsection}{Data product}{12}
+\contentsline {subsubsection}{Communication}{12}
+\contentsline {subsection}{\numberline {1.2.4}Benefits of Data Analysis}{12}
+\contentsline {chapter}{\numberline {2}Semantic technologies}{14}
+\contentsline {section}{\numberline {2.1}Semantic web}{14}
+\contentsline {subsection}{\numberline {2.1.1}Overview}{14}
+\contentsline {subsection}{\numberline {2.1.2}Semantic web architecture}{15}
+\contentsline {section}{\numberline {2.2}Resource Description framework}{17}
+\contentsline {subsection}{\numberline {2.2.1}Concept}{17}
+\contentsline {subsection}{\numberline {2.2.2}Representation}{18}
+\contentsline {subsection}{\numberline {2.2.3}Graph model notation}{18}
+\contentsline {subsection}{\numberline {2.2.4}RDF Turtle}{18}
+\contentsline {subsection}{\numberline {2.2.5}RDF XML}{19}
+\contentsline {subsection}{\numberline {2.2.6}RDFS}{19}
+\contentsline {section}{\numberline {2.3}OWL}{20}
+\contentsline {section}{\numberline {2.4}SPARQL and SPARQL Endpoints}{20}
+\contentsline {subsection}{\numberline {2.4.1}Syntax}{21}
+\contentsline {subsection}{\numberline {2.4.2}Working of SPARQL}{21}
+\contentsline {subsection}{\numberline {2.4.3}SPARQL endpoints}{22}
+\contentsline {chapter}{\numberline {3}Linking open data project}{23}
+\contentsline {section}{\numberline {3.1}Open Data}{23}
+\contentsline {section}{\numberline {3.2}Linked Data}{24}
+\contentsline {subsection}{\numberline {3.2.1}The Linked Data principles}{24}
+\contentsline {section}{\numberline {3.3}Linking Open Data project}{26}
+\contentsline {section}{\numberline {3.4}The LOD project activities}{26}
+\contentsline {subsection}{\numberline {3.4.1}Linked Data browsers}{28}
+\contentsline {subsection}{\numberline {3.4.2}Linked Data search engines}{28}
+\contentsline {subsection}{\numberline {3.4.3}Domain specific Linked Data applications}{29}
+\contentsline {section}{\numberline {.1}Source Code}{30}
