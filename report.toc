@@ -6,12 +6,12 @@
 \contentsline {subsection}{\numberline {1.2.1}Definition}{8}
 \contentsline {subsection}{\numberline {1.2.2}Types of data analysis }{8}
 \contentsline {subsubsection}{Qualitative Analysis}{8}
-\contentsline {subsubsection}{Quantitative Analysis}{9}
+\contentsline {subsubsection}{Quantitative Analysis}{8}
 \contentsline {subsection}{\numberline {1.2.3}The process of data analysis }{9}
-\contentsline {subsubsection}{Data requirements}{10}
+\contentsline {subsubsection}{Data requirements}{9}
 \contentsline {subsubsection}{Data collection}{10}
-\contentsline {subsubsection}{Data processing}{11}
-\contentsline {subsubsection}{Data cleaning}{11}
+\contentsline {subsubsection}{Data processing}{10}
+\contentsline {subsubsection}{Data cleaning}{10}
 \contentsline {subsubsection}{Exploratory data analysis}{11}
 \contentsline {subsubsection}{Modeling and algorithms}{11}
 \contentsline {subsubsection}{Data product}{12}
@@ -25,21 +25,44 @@
 \contentsline {subsection}{\numberline {2.2.1}Concept}{17}
 \contentsline {subsection}{\numberline {2.2.2}Representation}{18}
 \contentsline {subsection}{\numberline {2.2.3}Graph model notation}{18}
-\contentsline {subsection}{\numberline {2.2.4}RDF Turtle}{18}
+\contentsline {subsection}{\numberline {2.2.4}RDF Turtle}{19}
 \contentsline {subsection}{\numberline {2.2.5}RDF XML}{19}
-\contentsline {subsection}{\numberline {2.2.6}RDFS}{19}
-\contentsline {section}{\numberline {2.3}OWL}{20}
-\contentsline {section}{\numberline {2.4}SPARQL and SPARQL Endpoints}{20}
-\contentsline {subsection}{\numberline {2.4.1}Syntax}{21}
-\contentsline {subsection}{\numberline {2.4.2}Working of SPARQL}{21}
-\contentsline {subsection}{\numberline {2.4.3}SPARQL endpoints}{22}
-\contentsline {chapter}{\numberline {3}Linking open data project}{23}
-\contentsline {section}{\numberline {3.1}Open Data}{23}
-\contentsline {section}{\numberline {3.2}Linked Data}{24}
-\contentsline {subsection}{\numberline {3.2.1}The Linked Data principles}{24}
-\contentsline {section}{\numberline {3.3}Linking Open Data project}{26}
-\contentsline {section}{\numberline {3.4}The LOD project activities}{26}
-\contentsline {subsection}{\numberline {3.4.1}Linked Data browsers}{28}
-\contentsline {subsection}{\numberline {3.4.2}Linked Data search engines}{28}
-\contentsline {subsection}{\numberline {3.4.3}Domain specific Linked Data applications}{29}
-\contentsline {section}{\numberline {.1}Source Code}{30}
+\contentsline {subsection}{\numberline {2.2.6}RDFS}{20}
+\contentsline {section}{\numberline {2.3}OWL}{21}
+\contentsline {section}{\numberline {2.4}SPARQL and SPARQL Endpoints}{22}
+\contentsline {subsection}{\numberline {2.4.1}Syntax}{22}
+\contentsline {subsection}{\numberline {2.4.2}Working of SPARQL}{22}
+\contentsline {subsection}{\numberline {2.4.3}SPARQL endpoints}{23}
+\contentsline {chapter}{\numberline {3}Linking open data project}{24}
+\contentsline {section}{\numberline {3.1}Open Data}{24}
+\contentsline {section}{\numberline {3.2}Linked Data}{25}
+\contentsline {subsection}{\numberline {3.2.1}The Linked Data principles}{25}
+\contentsline {section}{\numberline {3.3}Linking Open Data project}{27}
+\contentsline {section}{\numberline {3.4}The LOD project activities}{28}
+\contentsline {subsection}{\numberline {3.4.1}Linked Data browsers}{29}
+\contentsline {subsection}{\numberline {3.4.2}Linked Data search engines}{29}
+\contentsline {subsection}{\numberline {3.4.3}Domain specific Linked Data applications}{30}
+\contentsline {chapter}{\numberline {4}Linked Open Data Visualization }{33}
+\contentsline {section}{\numberline {4.1}Linked Data Visualization and Exploration}{33}
+\contentsline {section}{\numberline {4.2}Motivating use cases}{34}
+\contentsline {subsubsection}{What Can I See in the Given Data?}{34}
+\contentsline {subsubsection}{What Can I Combine My Data With To See More}{35}
+\contentsline {subsubsection}{What Data Can I Visualize Like This}{36}
+\contentsline {section}{\numberline {4.3} Actual approaches to visualising LOD}{36}
+\contentsline {subsection}{\numberline {4.3.1}CODE Visualization Wizard}{36}
+\contentsline {subsection}{\numberline {4.3.2}LDVizWiz}{37}
+\contentsline {subsection}{\numberline {4.3.3}LODVizSuite & ResXplorer}{38}
+\contentsline {subsection}{\numberline {4.3.4}LODVisualization}{39}
+\contentsline {subsection}{\numberline {4.3.5}Payola}{40}
+\contentsline {subsection}{\numberline {4.3.6} rdf:SynopsViz}{41}
+\contentsline {subsection}{\numberline {4.3.7}Sgvizler}{42}
+\contentsline {subsection}{\numberline {4.3.8}Visualbox}{43}
+\contentsline {subsection}{\numberline {4.3.9}VizBoard}{44}
+\contentsline {section}{\numberline {4.4}Linked Data Visualization Model}{45}
+\contentsline {subsection}{\numberline {4.4.1}Overview of LDVM}{45}
+\contentsline {subsection}{\numberline {4.4.2}LDVM stages}{47}
+\contentsline {chapter}{\numberline {5}Data processing and User Interface Development }{49}
+\contentsline {section}{\numberline {5.1}Datasets selection }{49}
+\contentsline {section}{\numberline {5.2} Data conversion to RDF }{49}
+\contentsline {subsection}{\numberline {5.2.1}Ontologies definition }{49}
+\contentsline {section}{\numberline {.1}Source Code}{52}

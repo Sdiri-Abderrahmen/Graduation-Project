@@ -4,7 +4,26 @@
 \contentsline {figure}{\numberline {1.3}{\ignorespaces The process of data science}}{10}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Semantic web architecture}}{16}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces RDF Schema Example}}{19}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces SPARQL SELECT query}}{21}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Graph Representation}}{19}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces RDF/XML Representation}}{20}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces RDF Schema Example}}{21}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces SPARQL SELECT query}}{23}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces LOD cloud diagram as of September 2014}}{27}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces LOD cloud diagram as of September 2014}}{28}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Overview of the DBpedia components.}}{30}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces CODE Linked Data Vis Wizard, with the map selected as the representation to display data, among other options}}{37}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces LDVizWiz’s display or detected GeoData}}{38}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces LODVizSuite rendering of a research co-authorship network using a force directed layout}}{39}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces LDVM’s implementation of Ed Chi’s DRM}}{40}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Payola visualization of inspection and sanctions data’s structure using the TreeMap representation}}{41}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces rdf:SynopsViz’s faceted browsing feature over DBpedia}}{42}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Visualization example using Sgvizler, showing the HTML mark-up with the SPARQL query, the data obtained from the selection in tabular format, and the visual output on a scatter plot}}{43}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Visualbox’s graphical editor and final visualization schema}}{44}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Data panels on VizBoard demo}}{45}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces High level LDVM overview}}{46}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Number of Registred crimes in Belgium}}{50}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Population movement in Belgium}}{50}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Belgium population}}{50}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces RDF graph}}{50}

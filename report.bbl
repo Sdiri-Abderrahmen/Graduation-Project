@@ -1,0 +1,51 @@
+\begin{thebibliography}{1}
+
+\bibitem{auer2007dbpedia}
+S{\"o}ren Auer, Christian Bizer, Georgi Kobilarov, Jens Lehmann, Richard
+  Cyganiak, and Zachary Ives.
+\newblock Dbpedia: A nucleus for a web of open data.
+\newblock In {\em The semantic web}, pages 722--735. Springer, 2007.
+
+\bibitem{berners2001semantic}
+Tim Berners-Lee, James Hendler, Ora Lassila, et~al.
+\newblock The semantic web.
+\newblock {\em Scientific american}, 284(5):28--37, 2001.
+
+\bibitem{bizer2009linked}
+Christian Bizer, Tom Heath, and Tim Berners-Lee.
+\newblock Linked data-the story so far.
+\newblock {\em Semantic Services, Interoperability and Web Applications:
+  Emerging Concepts}, pages 205--227, 2009.
+
+\bibitem{brunetti2013formal}
+Josep~Maria Brunetti, S{\"o}ren Auer, Roberto Garc{\'\i}a, Jakub Kl{\'\i}mek,
+  and Martin Ne{\v{c}}ask{\`y}.
+\newblock Formal linked data visualization model.
+\newblock In {\em Proceedings of International Conference on Information
+  Integration and Web-based Applications \& Services}, page 309. ACM, 2013.
+
+\bibitem{horridge2004practical}
+Matthew Horridge, Holger Knublauch, Alan Rector, Robert Stevens, and Chris
+  Wroe.
+\newblock A practical guide to building owl ontologies using the
+  prot{\'e}g{\'e}-owl plugin and co-ode tools edition 1.0.
+\newblock {\em University of Manchester}, 2004.
+
+\bibitem{klimek2015use}
+Jakub Kl{\'\i}mek, Jir{\'\i} Helmich, and Martin Necask{\`y}.
+\newblock Use cases for linked data visualization model.
+\newblock In {\em Workshop on Linked Data on the Web,(LDOW)}, 2015.
+
+\bibitem{pena2015linked}
+Oscar Pe{\~n}a, Unai Aguilera, and Diego L{\'o}pez-de Ipina.
+\newblock Linked open data visualization revisited: a survey.
+\newblock {\em Under Review at Semant. Web J}, 2015.
+
+\bibitem{skjaeveland2012sgvizler}
+Martin~G Skj{\ae}veland.
+\newblock Sgvizler: A javascript wrapper for easy visualization of sparql
+  result sets.
+\newblock In {\em Extended Semantic Web Conference}, pages 361--365. Springer,
+  2012.
+
+\end{thebibliography}
