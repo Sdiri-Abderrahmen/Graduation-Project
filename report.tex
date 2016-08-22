@@ -15,7 +15,22 @@
 \date{\today}
 \maketitle
 \chapter*{Abstract}
-{The project aims to investigate geo-visualization techniques showing a large amount of historical ,geospatial and temporal data available in the Linked Open Data Cloud: http://lod-cloud.net/ and other open data sources . We selected the example of Belgium, we focused on :Population ,external immigration and number of  crimes  in the 3 regions of Belgium(Flemish,Walloon,Brussels-Capital) and we tried to find a  correlation between those datasets to understand the causes of the crimes in Belgium .The data are gathered, processed ,converted to linked data  and visualized .The data  can be accessed by authorized users over the Internet using an intuitive graphical user interface (GUI) to be implemented. The visualization can be beneficial for understanding the impact of the different factors affecting changes.}
+
+This project investigates historical, geospatial and temporal data
+from the Linked Open Data Cloud (\url{http://lod-cloud.net/}) and
+other open data sources. In particular, we take a closer look at the
+large amount of data for Belgium, where we compare population,
+external immigration and crime rate over time in its three regions
+(Flanders, Wallonia, Brussels-Capital). The data is gathered,
+processed, converted to linked data and visualized. An exemplary use
+case is the search for correlations between these datasets. The data
+can be accessed and queried by authorized users over the internet
+using an intuitive graphical user interface (GUI). The GUI also
+provides customizable visualizations (bar charts, line charts, etc.)
+and a geo-visualization to encourage further exploratory data
+analysis.
+
+
 \pagenumbering{roman}
 \chapter*{Dedication}
 \chapter*{Acknowledgements}
@@ -61,7 +76,7 @@ But as mentioned earlier, this first activity is heavily dependent upon the situ
 \item{Figure out what’s missing:}{Ask yourself what data would make a big diffrence to your processes if you had access to it,then go find it!}
 \item{Embrace diversity: }{Try to engage and connect to publicly available sources of data that may have relevance to your domain area}
 \end{itemize}
-\item \textbf {To prepare:} Once you have the data, you need to prepare it for analysis. Organizations often make decisions based on inexact data. Data stovepipes mean that organizations may have blind spots. They are not able to see the whole picture and fail to look at their data and challenges holistically. The end result is that valuable information is withheld from decision makers. Research has shown almost 33% of 
+\item \textbf {To prepare:} Once you have the data, you need to prepare it for analysis. Organizations often make decisions based on inexact data. Data stovepipes mean that organizations may have blind spots. They are not able to see the whole picture and fail to look at their data and challenges holistically. The end result is that valuable information is withheld from decision makers. Research has shown almost 33% of
 decisions are made without good data or information.  When Data Scientists are able to explore and analyze all the data, new opportunities arise for analysis and data-driven decision making. The
 insights gained from these new opportunities will signifiantly change the course of action and decisions within an organization. Gaining
 access to an organization’s complete repository of data, however, requires preparation.\\
@@ -153,7 +168,7 @@ Inferential statistics includes techniques to measure relationships between part
 \item {Helps businesses identify performance problems that require some sort of action Can be viewed in a visual manner, which leads to faster and better decisions}
 \item {Better awareness regarding the habits of potential customers}
 \item{It can provide a company with an edge over their competitors}
-\end{itemize} 
+\end{itemize}
 The process of evaluating data using analytical and logical reasoning to examine each component of the data provided. This form of analysis is just one of the many steps that must be completed when conducting a research experiment. Data from various sources is gathered, reviewed, and then analyzed to form some sort of finding or conclusion. There are a variety of specific data analysis method, some of which include data mining, text analytics, business intelligence, and data visualizations.}\\ \\
 \textbf{\large Conclusion}\\ \\
 
@@ -211,7 +226,7 @@ Since both RDFS and OWL are built on RDF, SPARQL can be used for querying ontolo
 \item {Subject: a resource that is described by the statement}
 \item {Predicate: a property of the resource that is described}
 \item {Object: the value of the property of the resource that is described}
-\end{itemize} 
+\end{itemize}
 {Take for example the statement “Abderrahmen's emailAdress is abderrahmen.sdiri@supcom.tn”. The parts are:
 \begin{itemize}
 \item {Subject:Abderrahmen }
@@ -239,7 +254,7 @@ representation of the earlier given example. Note that every resource, used as a
 RDF identifies things using Web identifiers (URIs), and describes resources with properties and property values.\\
 Explanation of Resource, Property, and Property value:
 A Resource is anything that can have a URI, such as\url{< http://example.org/person/Abderrahmen>}.
-A Property is a Resource that has a name, such as \url {http://example.org/relation/student} 
+A Property is a Resource that has a name, such as \url {http://example.org/relation/student}
 A Property value is the value of a Property, such as \url {<http://example.org/engineeringSchools/SUP’ COM>}\\
 The following RDF document could describe the resource \url {http://example.org/person/Abderrahmen}:\\
 \begin{figure}[ht]
@@ -311,7 +326,7 @@ explicitly state which license applies to your data. It is important to apply op
 Without a license it is not clear if the data can be used, reused and distributed by others. Examples of open licenses include Public Domain Dedication and License (PDDL) and Attribution License by the Open Data Commons project, the GNU Free Documentation License and the licenses prepared by the Creative Commons Attribution project, such as Creative Commons AttributionShare-Alike (cc-by-sa).\\
 \textbf{Open data sets:} There are various interesting open data sets available on the Web. A well-known example of open data is Wikipedia. Most of the Wikipedia’s text and many of its images are under open licenses. Other examples of open data are Wikibooks, Geonames, MusicBrainz, WordNet and the DBLP bibliography. \\
 Google Maps is an example of data that is not open, since the geodata is currently proprietary (copyrighted or protected by DB rights).\\
-In general, Open Data can come from anywhere. One of the biggest source of Open Data is the government domain. Open Government Data is a global movement of governments starting to open their information from public sector. 
+In general, Open Data can come from anywhere. One of the biggest source of Open Data is the government domain. Open Government Data is a global movement of governments starting to open their information from public sector.
 The pioneers were the governments of the U.S.  and the U.K, and many more governments have already joined the movement, including Australia, Netherlands, Spain, Austria, Denmark}
 \section{Linked Data}
 {The term Linked Data was coined by Tim Berners-Lee in 2006 in his design note . He outlined a set of recommendations, referred to as Linked Data principles, on how to complement the current Web of human-oriented documents with a Web of machineenabled data. \\
@@ -472,7 +487,7 @@ Even though some of the categories have a direct mapping to Shneiderman’s taxo
 or Organization are related to whole ontology class instances.\\
  This non-datatype based approach loses some of the advantages provided by best practices and lessons learned from the data visualization field, although class-category template filling exhibits a more
 robust performance if the schema is known beforehand. The biggest drawback is the need to adapt and extend the ASK queries to new vocabularies whenever they are detected.}
-\subsection{LODVizSuite & ResXplorer}
+\subsection{LODVizSuite \& ResXplorer}
 {Researchers from the iMinds Digital Research Centre5 designed, implemented and evaluated an interactive visual workflow to explore LOD. The workflow uses EDA techniques to guide users through the exploratory stage, and Exploratory Search  concepts
 to ease data querying. EDA is allowed through narrowing the dataset from high level group overviews towards their details. Providing an overview first, the dataset reveals its underlying structure and the internal connections as the users
 explore deeper in the content. The tool designed for this purpose is named LODVizSuite .
@@ -571,7 +586,7 @@ Data is propagated through the LDVM pipeline from one stage to another by applyi
 \item{Visualization transformation: transforms the obtained analytical abstraction into a visualization abstraction}
 \item{Visual mapping transformation: maps the visualization abstraction data structure to a concrete visual structure on the screen using a particular visualization technique specified using a set of parameters. }
 \end{enumerate}
-There are operators within the stages that allow for in-stage data transformations: 
+There are operators within the stages that allow for in-stage data transformations:
 \begin{enumerate}
 \item{Analytical SPARQL operators: transform the output of the data transformation to the final analytical abstraction (e.g. aggregations, enrichment from LOD)}
 \item{Visualization operators: further refine the visualization abstraction data structure (e.g., its condensation if it is too large for transparent visualization).}
@@ -638,7 +653,7 @@ The next figures show somes samples of the gathered data.
 \end{figure} }
 \section { Data conversion to RDF }
 \subsection {Ontologies definition }
-{In order to convert our raw data into linked data , we have to define at first   our RDF graph and then we define the required ontologies according to it. The next figure present the RDF graph that we have defined 
+{In order to convert our raw data into linked data , we have to define at first   our RDF graph and then we define the required ontologies according to it. The next figure present the RDF graph that we have defined
 \begin{figure}[ht]
 \centering
 \includegraphics[width=1\textwidth]{Capture77}
